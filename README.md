@@ -33,8 +33,8 @@ Specify necessary linkers before compilation `-lcurl -lssl -lcrypto -lws2_32 -ls
 ```
 📂 src
 ├── 📂 include/                # Market Data Streaming Module  
-│   ├── 📄 credentials.hpp       # API Secret Key and Client_ID
-│   └── 📄 methods.cpp           # Contains method implementations  
+│   ├── 📄 credentials.hpp      # API Secret Key and Client_ID
+│   └── 📄 methods.cpp          # Contains method implementations  
 │
 ├── 📂 marketDataStream/       # Market Data Streaming Module  
 │   └── 📄 streamOrderbook.cpp  # Streams real-time order book data  
